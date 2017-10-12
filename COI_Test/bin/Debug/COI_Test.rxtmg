@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="6.1">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="COI_Test"
+      id="3740c103-db0b-4e27-a771-3c4a4c581786"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="COI_Test"
+      id="3740c103-db0b-4e27-a771-3c4a4c581786"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

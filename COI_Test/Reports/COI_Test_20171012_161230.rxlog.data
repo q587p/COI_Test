@@ -1,0 +1,898 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.3m"
+		durationms="135647"
+		type="root"
+		rid="1d2b0de5b0c76ef2"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 16:12:30"
+		timestampiso="2017-10-12T13:12:30"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.3m"
+			durationms="135263"
+			type="test suite"
+			rid="25bf732cbef87a13"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			testsuitename="COI_Test"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="5">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="2.3m"
+				durationms="135232"
+				type="test case"
+				rid="21ad23b3e46e4396"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="Ugly"
+				testcaseid="a2cf18a5-9cfb-4171-88ea-8d82983832fc"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="7.54s"
+					durationms="7537"
+					type="test module"
+					rid="e522a53d855228"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Run"
+					moduleid="df80bad5-d89d-42eb-903a-a3ea519fd559"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.446"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:12:30"
+						time="00:00.446"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.801"
+						timeRelativeToTestModuleStartTime="00:00.354"
+						timeWallClock="16:12:31"
+						time="00:00.801"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'MyAssaysExplorer'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.824"
+						timeRelativeToTestModuleStartTime="00:07.377"
+						timeWallClock="16:12:38"
+						time="00:07.824"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Self' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="87"
+							loglvl="Success"
+							itemindex="1"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="6.06s"
+					durationms="6063"
+					type="test module"
+					rid="1db9cdba4a223079"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Create"
+					moduleid="cfb32324-05c9-483a-a325-fe766fc4ccad"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.988"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="16:12:38"
+						time="00:07.988"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.SomeContainer.SomeTabPage' at 45;76.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']"
+							fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.SomeTabPage"
+							id="d439a13831744b4b9ae959eef041c7b1"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.245"
+						timeRelativeToTestModuleStartTime="00:01.258"
+						timeWallClock="16:12:39"
+						time="00:09.245"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.SomeContainer.PARTImage' at 16;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//list[@automationid='Ribbon']/list[1]/list[3]/element[@automationid='NewFileRibbonButton']//picture[@automationid='PART_Image']"
+							fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.PARTImage"
+							id="abe6162107c2470f843c6e20f8d6c49f"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.098"
+						timeRelativeToTestModuleStartTime="00:02.111"
+						timeWallClock="16:12:40"
+						time="00:10.098"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Enabled='True') on item 'NewProtocolWizard'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.NewProtocolWizard.Self"
+							id="7adc01737b864ade88ff72a125f6cb43"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.265"
+						timeRelativeToTestModuleStartTime="00:04.278"
+						timeWallClock="16:12:42"
+						time="00:12.265"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Enabled' of element for item 'COI_TestRepository.NewProtocolWizard.Self' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.NewProtocolWizard.Self"
+							id="7adc01737b864ade88ff72a125f6cb43"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="91"
+							loglvl="Success"
+							itemindex="2"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:12.423"
+						timeRelativeToTestModuleStartTime="00:04.436"
+						timeWallClock="16:12:42"
+						time="00:12.423"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer3.OptionMark' at 1;1.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[1]/radiobutton[@text~'^I\ will\ enter/paste\ in\ my\ ']/element[@automationid='optionMark']"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.OptionMark"
+							id="4a21b3f9939141f1af1197f67678a46a"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.197"
+						timeRelativeToTestModuleStartTime="00:05.210"
+						timeWallClock="16:12:43"
+						time="00:13.197"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer3.CreateMultiplexAssay'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/checkbox[@text='Create multiplex assay']"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.CreateMultiplexAssay"
+							id="b053953df83b438aaa484fff046cfda4"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.280"
+						timeRelativeToTestModuleStartTime="00:05.293"
+						timeWallClock="16:12:43"
+						time="00:13.280"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating AttributeEqual (Checked='False') on item 'NewProtocolWizard.SomeContainer3.CreateMultiplexAssay'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/checkbox[@text='Create multiplex assay']"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.CreateMultiplexAssay"
+							id="b053953df83b438aaa484fff046cfda4"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.349"
+						timeRelativeToTestModuleStartTime="00:05.362"
+						timeWallClock="16:12:43"
+						time="00:13.349"
+						level="Success"
+						category="Validation">
+						<message>
+							Attribute 'Checked' of element for item 'COI_TestRepository.NewProtocolWizard.SomeContainer3.CreateMultiplexAssay' does match the specified value.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container[2]/checkbox[@text='Create multiplex assay']"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.CreateMultiplexAssay"
+							id="b053953df83b438aaa484fff046cfda4"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="103"
+							loglvl="Success"
+							itemindex="5"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.481"
+						timeRelativeToTestModuleStartTime="00:05.494"
+						timeWallClock="16:12:43"
+						time="00:13.481"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 56;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Create.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.32s"
+					durationms="2315"
+					type="test module"
+					rid="6b534a7a378e514"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Select_1x1"
+					moduleid="5c218f74-bdf0-458d-bc2a-33803f19b676"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.050"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:12:44"
+						time="00:14.050"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 30;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_1x1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.814"
+						timeRelativeToTestModuleStartTime="00:00.763"
+						timeWallClock="16:12:45"
+						time="00:14.814"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList1' at 67;67.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/list"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeList1"
+							id="71eff1376e6c402e8d99664e17b17f84"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_1x1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.593"
+						timeRelativeToTestModuleStartTime="00:01.543"
+						timeWallClock="16:12:46"
+						time="00:15.593"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 51;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_1x1.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.47s"
+					durationms="1470"
+					type="test module"
+					rid="6d07f0dc769fb8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SetStandardSample"
+					moduleid="350e22d4-763e-48dd-b809-23b5b459a761"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.370"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="16:12:46"
+						time="00:16.370"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'True' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[1]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox"
+							id="b91a1c95cdd04eaa92f72dd5a8f82cff"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.475"
+						timeRelativeToTestModuleStartTime="00:00.107"
+						timeWallClock="16:12:46"
+						time="00:16.475"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[2]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox1"
+							id="95a31697b8a44d80b00b7ba4e4dfa2e8"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.557"
+						timeRelativeToTestModuleStartTime="00:00.190"
+						timeWallClock="16:12:46"
+						time="00:16.557"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox2'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[3]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox2"
+							id="e651034033774039a0e79fb3c64fa544"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.642"
+						timeRelativeToTestModuleStartTime="00:00.274"
+						timeWallClock="16:12:47"
+						time="00:16.642"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox3'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[4]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox3"
+							id="c6138bb64e9c44b6842bcf3a3c5c49e2"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="94"
+							itemindex="3"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.742"
+						timeRelativeToTestModuleStartTime="00:00.375"
+						timeWallClock="16:12:47"
+						time="00:16.742"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox4'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[5]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox4"
+							id="b348c99700be49fdb40b5247a4e83aa1"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="98"
+							itemindex="4"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.827"
+						timeRelativeToTestModuleStartTime="00:00.459"
+						timeWallClock="16:12:47"
+						time="00:16.827"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox5'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[6]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox5"
+							id="3535e0b21b8a4b5eb62c3f6e832ca0db"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.911"
+						timeRelativeToTestModuleStartTime="00:00.543"
+						timeWallClock="16:12:47"
+						time="00:16.911"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox6'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[7]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox6"
+							id="8216bee11a8b47e2a8e3ac874911743e"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="106"
+							itemindex="6"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:16.996"
+						timeRelativeToTestModuleStartTime="00:00.628"
+						timeWallClock="16:12:47"
+						time="00:16.996"
+						level="Info"
+						category="Set Value">
+						<message>
+							Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox7'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[8]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox7"
+							id="d3cb00a8895548528f0d4f0cd7533200"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.058"
+						timeRelativeToTestModuleStartTime="00:00.691"
+						timeWallClock="16:12:47"
+						time="00:17.058"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 36;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetStandardSample.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1.62s"
+					durationms="1622"
+					type="test module"
+					rid="7a063bf5781b4a"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SetFirstLayout"
+					moduleid="bb4e2e65-54f7-4900-96b1-ef72091d906c"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.842"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="16:12:48"
+						time="00:17.842"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeContainer' at 14;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//container[@automationid='Self']//list[@automationid='MainListBox']/container/listitem/container/container/container[@automationid='ImageGrid']/container"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeContainer"
+							id="ffa94c25742f496d94b21c49235c3760"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetFirstLayout.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:18.691"
+						timeRelativeToTestModuleStartTime="00:00.851"
+						timeWallClock="16:12:49"
+						time="00:18.691"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 52;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetFirstLayout.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.9m"
+					durationms="116185"
+					type="test module"
+					rid="1462bfd47c2fba7"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="SetDataDoubleMore"
+					moduleid="f35e7cab-5ed3-42c0-9a8d-49200644a505"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.462"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:12:49"
+						time="00:19.462"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.ClearButton' at 42;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/container[1]/container[1]/button[@automationid='ClearButton']"
+							fullname="COI_TestRepository.NewProtocolWizard.ClearButton"
+							id="d1c8dc81ba5f44e3bc59138e3bb23541"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:20.889"
+						timeRelativeToTestModuleStartTime="00:01.427"
+						timeWallClock="16:12:51"
+						time="00:20.889"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.SomeElement' at 46;55.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']//element[@automationid='MeasurementsControl']/tabpagelist[@automationid='MultipleContainerViewPanel']/tabpage[@title='Pad']/text[@automationid='PadViewTextBox']/element[2]"
+							fullname="COI_TestRepository.NewProtocolWizard.SomeElement"
+							id="d739cb4006794b11ae14063d4aafcf0b"
+							timeout="60000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.721"
+						timeRelativeToTestModuleStartTime="00:02.259"
+						timeWallClock="16:12:52"
+						time="00:21.721"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '9999999999999999999999999999'.
+						</message>
+						<metainfo
+							itemindex="2"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="90"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.700"
+						timeRelativeToTestModuleStartTime="00:05.237"
+						timeWallClock="16:12:55"
+						time="00:24.700"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '9'.
+						</message>
+						<metainfo
+							itemindex="3"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="94"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.952"
+						timeRelativeToTestModuleStartTime="00:05.489"
+						timeWallClock="16:12:55"
+						time="00:24.952"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LMenu down}{Tab down}{LMenu up}{Tab up}'.
+						</message>
+						<metainfo
+							itemindex="4"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="98"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.099"
+						timeRelativeToTestModuleStartTime="00:05.637"
+						timeWallClock="16:12:55"
+						time="00:25.099"
+						level="Info"
+						category="Invoke Action">
+						<message>
+							Invoking Focus() on item 'NewProtocolWizard'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.NewProtocolWizard.Self"
+							id="7adc01737b864ade88ff72a125f6cb43"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="102"
+							itemindex="5"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.197"
+						timeRelativeToTestModuleStartTime="00:05.735"
+						timeWallClock="16:12:55"
+						time="00:25.197"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '9'.
+						</message>
+						<metainfo
+							itemindex="6"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="106"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:25.514"
+						timeRelativeToTestModuleStartTime="00:06.052"
+						timeWallClock="16:12:55"
+						time="00:25.514"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 37;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+							id="6793d47d6ef14394af1d7cc90900d407"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="110"
+							itemindex="7"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.315"
+						timeRelativeToTestModuleStartTime="00:06.853"
+						timeWallClock="16:12:56"
+						time="00:26.315"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'NewProtocolWizard.Grid.Back' at 32;19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back']"
+							fullname="COI_TestRepository.NewProtocolWizard.Grid.Back"
+							id="6a2f5c36629b49009f244051519a6b78"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\SetDataDoubleMore.cs"
+							codeline="114"
+							itemindex="8"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:15.647"
+						timeRelativeToTestModuleStartTime="01:56.185"
+						timeWallClock="16:14:46"
+						time="02:15.647"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

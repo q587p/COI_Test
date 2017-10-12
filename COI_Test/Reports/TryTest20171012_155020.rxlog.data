@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="43.06s"
+		durationms="43061"
+		type="root"
+		rid="4aa356234ec64e4"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 15:50:28"
+		timestampiso="2017-10-12T12:50:28"
+		timeoutfactor="1"
+		module="TryTest">
+		<detail>
+			TryTest
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.445"
+			timeRelativeToTestModuleStartTime="00:00.446"
+			timeWallClock="15:50:29"
+			time="00:00.445"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.SomeContainer.Test' at 34;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/container[2]/tabpagelist[@automationid='TabControl']/tabpage[@index='2']//container[@automationid='FileView']/container[@caption='']/element[@controlname='_child']/list[@accessiblerole='List']/listitem[@accessiblename='Test']"
+				fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.Test"
+				id="d295cc75568848dc9fd97bba8434cb90"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\TryTest.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.647"
+			timeRelativeToTestModuleStartTime="00:02.648"
+			timeWallClock="15:50:31"
+			time="00:02.647"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysExplorer.SomeContainer.PARTImage1' at 20;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//list[@automationid='Ribbon']/list[1]/list[3]/element[@automationid='OpenFileRibbonButton']//picture[@automationid='PART_Image']"
+				fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.PARTImage1"
+				id="70157768be9d4debb9ec82d064567106"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\TryTest.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.502"
+			timeRelativeToTestModuleStartTime="00:03.503"
+			timeWallClock="15:50:32"
+			time="00:03.502"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 10s for item 'ProtocolTestMyAssaysAnalysis' to not exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^Protocol:\ Test\ -\ MyAssays' and @processname='MyAssays.Desktop.Analysis']"
+				fullname="COI_TestRepository.ProtocolTestMyAssaysAnalysis.Self"
+				id="b3482cb22b5b424693841d1133914700"
+				timeout="10000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\TryTest.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.594"
+			timeRelativeToTestModuleStartTime="00:03.595"
+			timeWallClock="15:50:32"
+			time="00:03.594"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ProtocolTestMyAssaysAnalysis.PARTTabLayoutPanel.SomeTabPage' at 47;96.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title~'^Protocol:\ Test\ -\ MyAssays' and @processname='MyAssays.Desktop.Analysis']//container[@automationid='LayoutRoot']/?/?/element[@automationid='DockingManager']/container[@automationid='MainPanel']/?/?/container[@automationid='TabControlGrid']/container[@automationid='HeaderPanel']/element[@automationid='PART_TabPanel']/?/?/container[@automationid='PART_TabLayoutPanel']/tabpage[2]"
+				fullname="COI_TestRepository.ProtocolTestMyAssaysAnalysis.PARTTabLayoutPanel.SomeTabPage"
+				id="e1412a1b495c43c78a3f29aac9fd0ad5"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\TryTest.cs"
+				codeline="93"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:43.061"
+			timeRelativeToTestModuleStartTime="00:43.062"
+			timeWallClock="15:51:11"
+			time="00:43.061"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error"/>
+		</item>
+	</activity>
+</report>

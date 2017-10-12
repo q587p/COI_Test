@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="48e8d3a8a736a2e"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 14:26:10"
+		timestampiso="2017-10-12T11:26:10"
+		timeoutfactor="1"
+		module="Select_Set_99x99">
+		<detail>
+			Select_Set_99x99
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.517"
+			timeRelativeToTestModuleStartTime="00:00.518"
+			timeWallClock="14:26:11"
+			time="00:00.517"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer3.SomeList' at 59;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.164"
+			timeRelativeToTestModuleStartTime="00:03.165"
+			timeWallClock="14:26:13"
+			time="00:03.164"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 48;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+				id="6793d47d6ef14394af1d7cc90900d407"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.871"
+			timeRelativeToTestModuleStartTime="00:03.872"
+			timeWallClock="14:26:14"
+			time="00:03.871"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeList1' at 33;71.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/list"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeList1"
+				id="71eff1376e6c402e8d99664e17b17f84"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.603"
+			timeRelativeToTestModuleStartTime="00:04.604"
+			timeWallClock="14:26:15"
+			time="00:04.603"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{End}'.
+			</message>
+			<metainfo
+				itemindex="3"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="94"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.836"
+			timeRelativeToTestModuleStartTime="00:04.837"
+			timeWallClock="14:26:15"
+			time="00:04.836"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Tab}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="98"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.044"
+			timeRelativeToTestModuleStartTime="00:05.045"
+			timeWallClock="14:26:15"
+			time="00:05.044"
+			level="Info"
+			category="Invoke Action">
+			<message>
+				Invoking EnsureVisible() on item 'NewProtocolWizard.SomeContainer2.SomeList1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/list"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeList1"
+				id="71eff1376e6c402e8d99664e17b17f84"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.085"
+			timeRelativeToTestModuleStartTime="00:05.086"
+			timeWallClock="14:26:15"
+			time="00:05.085"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{End}' with focus on 'NewProtocolWizard.SomeContainer2.SomeList1'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/list"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeList1"
+				id="71eff1376e6c402e8d99664e17b17f84"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.333"
+			timeRelativeToTestModuleStartTime="00:05.334"
+			timeWallClock="14:26:16"
+			time="00:05.333"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeElement' at 14;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/container[1]/text[@caption='1']/container/?/?/container/element[2]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeElement"
+				id="5a6b30eecf054e2587d8f6eacd65ca17"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.070"
+			timeRelativeToTestModuleStartTime="00:06.071"
+			timeWallClock="14:26:16"
+			time="00:06.070"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="114"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.180"
+			timeRelativeToTestModuleStartTime="00:06.181"
+			timeWallClock="14:26:16"
+			time="00:06.180"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '99'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="118"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.494"
+			timeRelativeToTestModuleStartTime="00:06.495"
+			timeWallClock="14:26:17"
+			time="00:06.494"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.SomeElement2' at 19;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/container[2]/text[@caption='1']/container/?/?/container/element[2]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeElement2"
+				id="885d2be661a4490ba85ab40f9baa96f4"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.222"
+			timeRelativeToTestModuleStartTime="00:07.223"
+			timeWallClock="14:26:18"
+			time="00:07.222"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				itemindex="11"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="126"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.332"
+			timeRelativeToTestModuleStartTime="00:07.333"
+			timeWallClock="14:26:18"
+			time="00:07.332"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '99'.
+			</message>
+			<metainfo
+				itemindex="12"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="130"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.641"
+			timeRelativeToTestModuleStartTime="00:07.642"
+			timeWallClock="14:26:18"
+			time="00:07.641"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 39;12.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+				id="6793d47d6ef14394af1d7cc90900d407"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Select_Set_99x99.cs"
+				codeline="134"
+				itemindex="13"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

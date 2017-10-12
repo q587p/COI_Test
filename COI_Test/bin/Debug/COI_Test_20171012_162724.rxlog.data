@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="19.6s"
+		durationms="19603"
+		type="root"
+		rid="f98f7c0e6d3dc"
+		totalerrorcount="2"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="2"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 16:27:24"
+		timestampiso="2017-10-12T13:27:24"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="19.24s"
+			durationms="19241"
+			type="test suite"
+			rid="8f7d87df9cf429e"
+			totalerrorcount="2"
+			totalwarningcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="2"
+			totalblockedcount="0"
+			testsuitename="COI_Test"
+			runconfigname="TestRun"
+			runlabel=""
+			maxchildren="5">
+			<params/>
+			<detail>
+			</detail>
+			<activity
+				result="Failed"
+				duration="15.04s"
+				durationms="15037"
+				type="test case"
+				rid="3230b00c8290dc0"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="MainWorking"
+				testcaseid="216471ea-5b90-4b4a-bb8a-3d2ac512f932"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Success"
+					duration="7.88s"
+					durationms="7875"
+					type="test module"
+					rid="906eae40700057e"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Run"
+					moduleid="df80bad5-d89d-42eb-903a-a3ea519fd559"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.426"
+						timeRelativeToTestModuleStartTime="00:00.018"
+						timeWallClock="16:27:25"
+						time="00:00.426"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.746"
+						timeRelativeToTestModuleStartTime="00:00.338"
+						timeWallClock="16:27:25"
+						time="00:00.746"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'MyAssaysExplorer'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.077"
+						timeRelativeToTestModuleStartTime="00:07.669"
+						timeWallClock="16:27:32"
+						time="00:08.077"
+						level="Success"
+						category="Validation">
+						<message>
+							Element for item 'Self' does exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="87"
+							loglvl="Success"
+							itemindex="1"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.236"
+						timeRelativeToTestModuleStartTime="00:07.828"
+						timeWallClock="16:27:33"
+						time="00:08.236"
+						level="Info"
+						category="Invoke Action">
+						<message>
+							Invoking Focus() on item 'MyAssaysExplorer'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="7.13s"
+					durationms="7127"
+					type="test module"
+					rid="8337411ebc4920"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Exit"
+					moduleid="d1ecc80a-b5ff-45d5-8b06-29679dbd14df"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<errmsg>
+						Failed to wait for item to exist.
+					</errmsg>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.287"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="16:27:33"
+						time="00:08.287"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.SomeContainer.Ribbon' at 26;35.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container/container/container/container/container/list[@automationid='Ribbon']"
+							fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.Ribbon"
+							id="e959017bc5bc45a3a6346547b2f32160"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Exit.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:09.159"
+						timeRelativeToTestModuleStartTime="00:00.872"
+						timeWallClock="16:27:33"
+						time="00:09.159"
+						level="Info"
+						category="Mouse"
+						errimg="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_8cf1a499_trace.jpg"
+						errthumb="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_8cf1a499_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'MyAssaysExplorer.SomeContainer.IconImage' at 6;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']/container//element[@automationid='BackStageContent']/list/element[@automationid='ExitCommandButton']//picture[@automationid='iconImage']"
+							fullname="COI_TestRepository.MyAssaysExplorer.SomeContainer.IconImage"
+							id="b4e5ee1e922a41fc9ef9a3e500f98201"
+							timeout="90000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Exit.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.065"
+						timeRelativeToTestModuleStartTime="00:01.778"
+						timeWallClock="16:27:34"
+						time="00:10.065"
+						level="Info"
+						category="Wait"
+						errimg="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_f7693252_trace.jpg"
+						errthumb="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_f7693252_trace_thumb.jpg">
+						<message>
+							Waiting 5s for item 'MyAssaysExplorer' to exist.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="5000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Exit.cs"
+							codeline="90"
+							itemindex="2"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.213"
+						timeRelativeToTestModuleStartTime="00:06.926"
+						timeWallClock="16:27:40"
+						time="00:15.213"
+						level="Error"
+						category="Module"
+						errimg="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_07b88aad_trace.jpg"
+						errthumb="images_COI_Test_7ccb28f2\COI_Test_7ccb28f2_07b88aad_trace_thumb.jpg">
+						<message>
+							Failed to wait for item to exist.<br/>Failed to find item 'COI_TestRepository.MyAssaysExplorer.Self'.<br/>No element found for path '/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']' within 5s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.WaitForExists(Duration waitTimeout)
+   at COI_Test.Exit.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Exit.cs:line 91
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext)"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Exit.cs"
+							codeline="91"
+							loglvl="Error"
+							id="f900e6eb846b470093072bfea3f07d32"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							itemindex="2"/>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="4.19s"
+				durationms="4189"
+				type="test case"
+				rid="b8b149e64513730"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				testcasename="MainCheck"
+				testcaseid="33be7c93-d859-4a87-accc-6c552426cc6a"
+				maxchildren="0">
+				<params/>
+				<detail>
+				</detail>
+				<activity
+					result="Failed"
+					duration="4.19s"
+					durationms="4189"
+					type="test module"
+					rid="48b452158a2645c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					modulename="Run"
+					moduleid="df80bad5-d89d-42eb-903a-a3ea519fd559"
+					moduletype="Recording">
+					<detail>
+					</detail>
+					<varbindings/>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.413"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="16:27:40"
+						time="00:15.413"
+						level="Info"
+						category="Application">
+						<message>
+							Run application 'C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe' with arguments '' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="82"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.591"
+						timeRelativeToTestModuleStartTime="00:00.178"
+						timeWallClock="16:27:40"
+						time="00:15.591"
+						level="Info"
+						category="Validation">
+						<message>
+							Validating Exists on item 'MyAssaysExplorer'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']"
+							fullname="COI_TestRepository.MyAssaysExplorer.Self"
+							id="f900e6eb846b470093072bfea3f07d32"
+							timeout="30000"
+							codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\Run.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info"/>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:19.603"
+						timeRelativeToTestModuleStartTime="00:04.189"
+						timeWallClock="16:27:44"
+						time="00:19.603"
+						level="Error"
+						category="Module">
+						<message>
+							The test run has been aborted by the user.
+						</message>
+						<metainfo
+							loglvl="Error"/>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

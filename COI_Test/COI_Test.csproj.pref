@@ -1,0 +1,25 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="TryBigOne.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="AddDeleteNewSample.UserCode.cs" />
+    <Element value="AddDeleteNewSample.rxrec" />
+    <Element value="COI_Test.rxtst" />
+    <Element value="TryTest.rxrec" />
+    <Element value="DeleteTest.rxrec" />
+    <Element value="TryBigOne.rxrec" />
+    <Element value="COI_Test.rxtmg" />
+    <Element value="SetDataDoubleMore.rxrec" />
+    <Element value="Create.rxrec" />
+    <Element value="Run.rxrec" />
+    <Element value="Exit.rxrec" />
+    <Element value="CheckEmptySamples.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+  </Properties>
+</Properties>

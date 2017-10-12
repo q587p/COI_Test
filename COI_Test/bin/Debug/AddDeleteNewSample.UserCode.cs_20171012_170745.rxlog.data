@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="d3bb962cb7d3a89"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 17:07:49"
+		timestampiso="2017-10-12T14:07:49"
+		timeoutfactor="1"
+		module="AddDeleteNewSample">
+		<detail>
+			AddDeleteNewSample
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.450"
+			timeRelativeToTestModuleStartTime="00:00.450"
+			timeWallClock="17:07:49"
+			time="00:00.450"
+			level="Info"
+			category="User Code">
+			<message>
+				Simple code
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']"
+				fullname="COI_TestRepository.SampleTypesEditor.Self"
+				id="1b61f3a1366d479ea057c2f7c097c84f"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

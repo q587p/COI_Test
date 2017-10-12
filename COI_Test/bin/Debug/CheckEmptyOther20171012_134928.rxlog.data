@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="302b5255862abc78"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 13:49:36"
+		timestampiso="2017-10-12T10:49:36"
+		timeoutfactor="1"
+		module="CheckEmptyOther">
+		<detail>
+			CheckEmptyOther
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.473"
+			timeRelativeToTestModuleStartTime="00:00.473"
+			timeWallClock="13:49:36"
+			time="00:00.473"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer3.SomeList' at 142;138.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.941"
+			timeRelativeToTestModuleStartTime="00:02.941"
+			timeWallClock="13:49:39"
+			time="00:02.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.Grid.Next' at 26;16.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+				id="6793d47d6ef14394af1d7cc90900d407"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.685"
+			timeRelativeToTestModuleStartTime="00:03.685"
+			timeWallClock="13:49:39"
+			time="00:03.685"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (SelectedItemIndex='-1') on item 'NewProtocolWizard.SomeContainer3.SomeList'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.761"
+			timeRelativeToTestModuleStartTime="00:03.761"
+			timeWallClock="13:49:40"
+			time="00:03.761"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'SelectedItemIndex' of element for item 'COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="91"
+				loglvl="Success"
+				itemindex="2"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.867"
+			timeRelativeToTestModuleStartTime="00:03.867"
+			timeWallClock="13:49:40"
+			time="00:03.867"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Enabled='False') on item 'NewProtocolWizard.Grid.Next'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+				id="6793d47d6ef14394af1d7cc90900d407"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.903"
+			timeRelativeToTestModuleStartTime="00:03.903"
+			timeWallClock="13:49:40"
+			time="00:03.903"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Enabled' of element for item 'COI_TestRepository.NewProtocolWizard.Grid.Next' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/container/button[@text='Next']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Next"
+				id="6793d47d6ef14394af1d7cc90900d407"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="95"
+				loglvl="Success"
+				itemindex="3"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.016"
+			timeRelativeToTestModuleStartTime="00:04.016"
+			timeWallClock="13:49:40"
+			time="00:04.016"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.Grid.Back' at 56;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/container[1]/button[@text='Back']"
+				fullname="COI_TestRepository.NewProtocolWizard.Grid.Back"
+				id="6a2f5c36629b49009f244051519a6b78"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.744"
+			timeRelativeToTestModuleStartTime="00:04.744"
+			timeWallClock="13:49:41"
+			time="00:04.744"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer3.SomeList' at 70;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.491"
+			timeRelativeToTestModuleStartTime="00:05.491"
+			timeWallClock="13:49:41"
+			time="00:05.491"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer3.SomeList' at 84;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/list[1]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer3.SomeList"
+				id="57b6fdc2e4fe43f28b1f5fc4e182bb24"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\CheckEmptyOther.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,13 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{897DE447-681A-42C9-8775-A9BA9BE472C8}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution COI_Test[COI_Test[]]]&#xD;&#xA;Solution COI_Test\COI_Test\TryBigOne.rxrec&#xD;&#xA;Solution COI_Test\COI_Test\Exit.rxrec" />
+  <StartupProject value="{897DE447-681A-42C9-8775-A9BA9BE472C8}" />
+</Properties>

@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1513ade2a740d5e0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="User"
+		host="DESKTOP-H3D7L8R"
+		rxversion="6.1.1.0"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		language="uk-UA"
+		screenresolution="1920x1080"
+		timestamp="12.10.2017 17:02:20"
+		timestampiso="2017-10-12T14:02:20"
+		timeoutfactor="1"
+		module="AddDeleteNewSample">
+		<detail>
+			AddDeleteNewSample
+		</detail>
+		<varbindings/>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.447"
+			timeRelativeToTestModuleStartTime="00:00.447"
+			timeWallClock="17:02:21"
+			time="00:00.447"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 34;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.AdvancedViewButton"
+				id="b5ac0bbc19534d9b8f772f201197963c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="37"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.949"
+			timeRelativeToTestModuleStartTime="00:01.949"
+			timeWallClock="17:02:22"
+			time="00:01.949"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.AddSampleType' at 102;7.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='Add Sample Type']"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.AddSampleType"
+				id="faf3405804ed480cb99db895f957bf29"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="39"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.849"
+			timeRelativeToTestModuleStartTime="00:02.849"
+			timeWallClock="17:02:23"
+			time="00:02.849"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeElement' at 97;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[9]/text/element[2]"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.SomeElement"
+				id="85c15f51fc4148d29e53166dbbeb127e"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="41"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.407"
+			timeRelativeToTestModuleStartTime="00:03.407"
+			timeWallClock="17:02:24"
+			time="00:03.407"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Ctrl+A' Press.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="43"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.535"
+			timeRelativeToTestModuleStartTime="00:03.535"
+			timeWallClock="17:02:24"
+			time="00:03.535"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'test'.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="45"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.064"
+			timeRelativeToTestModuleStartTime="00:04.064"
+			timeWallClock="17:02:24"
+			time="00:04.064"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.ToggleButton' at 140;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[9]/?/?/combobox/container[@automationid='templateRoot']/checkbox[@automationid='toggleButton']"
+				fullname="COI_TestRepository.SampleTypesEditor.ToggleButton"
+				id="d384dcff1e5d4742aebaecd131e16b5c"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="47"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.627"
+			timeRelativeToTestModuleStartTime="00:04.627"
+			timeWallClock="17:02:25"
+			time="00:04.627"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.Unknown' at 47;5.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/listitem[@text='Unknown']"
+				fullname="COI_TestRepository.MyAssaysDesktopExplorer.Unknown"
+				id="787dde6fffb54ed983da2391b79f2346"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="49"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.289"
+			timeRelativeToTestModuleStartTime="00:05.289"
+			timeWallClock="17:02:26"
+			time="00:05.289"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeContainer' at 96;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[9]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.SomeContainer"
+				id="1de4662af6c742e5a59aebe0a81b46db"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="51"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.878"
+			timeRelativeToTestModuleStartTime="00:05.878"
+			timeWallClock="17:02:26"
+			time="00:05.878"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'MyAssaysDesktopExplorer.SomeButton' at 14;19.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/contextmenu[@processname='MyAssays.Desktop.Explorer' and @win32ownerwindowlevel='1']/element[@automationid='ColorEdit']//slider[@automationid='PART_Track']/button[1]"
+				fullname="COI_TestRepository.MyAssaysDesktopExplorer.SomeButton"
+				id="1059b773848443fba02db7b65cba850a"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="53"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.591"
+			timeRelativeToTestModuleStartTime="00:06.591"
+			timeWallClock="17:02:27"
+			time="00:06.591"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.SomeContainer' at 141;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/list[@automationid='SampleTypesSimplifiedView']/container/container[9]//checkbox[@automationid='colorToggleButton']/container"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.SomeContainer"
+				id="1de4662af6c742e5a59aebe0a81b46db"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="55"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.208"
+			timeRelativeToTestModuleStartTime="00:07.208"
+			timeWallClock="17:02:27"
+			time="00:07.208"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ButtonOK' at 27;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK']"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.ButtonOK"
+				id="0ce87d56f9b4413fbab5d36fbcc7ac8d"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="57"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.792"
+			timeRelativeToTestModuleStartTime="00:07.792"
+			timeWallClock="17:02:28"
+			time="00:07.792"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Checked to 'True' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox8'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[9]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox8"
+				id="ab2bc20abf314fa884080838829780bc"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="59"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.877"
+			timeRelativeToTestModuleStartTime="00:07.877"
+			timeWallClock="17:02:28"
+			time="00:07.877"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Checked to 'False' on item 'NewProtocolWizard.SomeContainer2.SomeCheckBox8'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/list[@automationid='SampleTypesSimplifiedView']/container/checkbox[9]"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.SomeCheckBox8"
+				id="ab2bc20abf314fa884080838829780bc"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="61"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.924"
+			timeRelativeToTestModuleStartTime="00:07.924"
+			timeWallClock="17:02:28"
+			time="00:07.924"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewProtocolWizard.SomeContainer2.AdvancedViewButton' at 60;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='New Protocol Wizard' and @processname='MyAssays.Desktop.Explorer']/element/container/element/container/container/container/container/button[@automationid='AdvancedViewButton']"
+				fullname="COI_TestRepository.NewProtocolWizard.SomeContainer2.AdvancedViewButton"
+				id="b5ac0bbc19534d9b8f772f201197963c"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="63"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.493"
+			timeRelativeToTestModuleStartTime="00:08.493"
+			timeWallClock="17:02:29"
+			time="00:08.493"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 100ms.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="65"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.594"
+			timeRelativeToTestModuleStartTime="00:08.594"
+			timeWallClock="17:02:29"
+			time="00:08.594"
+			level="Info"
+			category="Invoke Action">
+			<message>
+				Invoking Focus() on item 'SampleTypesEditor'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']"
+				fullname="COI_TestRepository.SampleTypesEditor.Self"
+				id="1b61f3a1366d479ea057c2f7c097c84f"
+				timeout="30000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="67"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.957"
+			timeRelativeToTestModuleStartTime="00:08.957"
+			timeWallClock="17:02:29"
+			time="00:08.957"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s for item 'SampleTypesEditor.SomeContainer1' to exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.Self"
+				id="28601cba06df4872bb320f5633ff8e3b"
+				timeout="5000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="69"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.978"
+			timeRelativeToTestModuleStartTime="00:08.978"
+			timeWallClock="17:02:29"
+			time="00:08.978"
+			level="Info"
+			category="Delay">
+			<message>
+				Waiting for 1s.
+			</message>
+			<metainfo
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="71"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.996"
+			timeRelativeToTestModuleStartTime="00:09.996"
+			timeWallClock="17:02:30"
+			time="00:09.996"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomePicture' at 9;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']//list[@automationid='SampleTypesSimplifiedView']/container/container[9]/button/picture"
+				fullname="COI_TestRepository.SampleTypesEditor.SomePicture"
+				id="51181763569d4934b86f7ead4e1ba4be"
+				timeout="60000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="73"
+				loglvl="Info"/>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.559"
+			timeRelativeToTestModuleStartTime="00:10.559"
+			timeWallClock="17:02:31"
+			time="00:10.559"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'SampleTypesEditor.SomeContainer1.ButtonOK' at 39;10.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@wpfnative='True' and @title='Sample Types Editor' and @processname='MyAssays.Desktop.Explorer']/container/?/?/button[@text='OK']"
+				fullname="COI_TestRepository.SampleTypesEditor.SomeContainer1.ButtonOK"
+				id="0ce87d56f9b4413fbab5d36fbcc7ac8d"
+				timeout="90000"
+				codefile="c:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\AddDeleteNewSample.UserCode.cs"
+				codeline="75"
+				loglvl="Info"/>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+rxversion="6.1"
+id="df80bad5-d89d-42eb-903a-a3ea519fd559"
+embeddedrepository="False"
+mode="Desktop">
+	<name>
+		Run
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Run"
+	namespace="COI_Test"/>
+	<variables/>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		maximized="False">
+			<comment/>
+			<bindings/>
+			<filename>
+				C:\Program Files (x86)\MyAssays\MyAssays Desktop\MyAssays.Desktop.Explorer.exe
+			</filename>
+			<workingdir>
+				C:\Program Files (x86)\MyAssays\MyAssays Desktop
+			</workingdir>
+			<args/>
+		</runapprecorditem>
+		<validationitem
+		enabled="True"
+		optional="False"
+		duration="100ms"
+		searchpropertyid="321dbe3d-8c2d-49e5-84a9-a30a598d9c0b"
+		action="Exists">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ElementTree"
+			id="f900e6eb-846b-4700-9307-2bfea3f07d32">
+				<element
+				role="form"
+				prefcap="form"
+				capabilities="nativewindow, wpfwin32element, wpfelement"
+				flavor="wpf"
+				visible="True"
+				valid="True"
+				enabled="True"
+				hasfocus="False"
+				dontcache="False"
+				minattr="3"
+				index="19"
+				rect="-8,-8,1936,1056"
+				snapElem="">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="appicon"
+					type="System.Drawing.Icon, System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+						iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAK/SURBVDhPhVNbSBRRGJ77ZS+2bpoPXTCiEupB
+eoheeih60KfSfIgoKonKFyu6mxhhpa6ZaVCiZShqCYqWJWsqomarlu2ukZd0111KS9ggw9LdnZm/
+c2bHVqzogw/+OfN/33znn3OIpaAoimZoiqVpko0wiGaSJEjt1f+hF7llJddPDL5uKYf2+kJfbekl
+R2VBqrMmN8W9OsYYp7X9G9GR+lVPSk/PylIQAL6B5O+H6ZFyGLNVQGlW0kjKrg3pm9eZt+GEFEXS
+qgg/sAzF4Xr9GlO89dHlKYARUKQuZNKB2INog8BcLwwN1PieVV31VhWnD93NPjwQZdLHEo6np76/
+qz8kI0r22gP+9w2pyljzcRhqPAKjTUfhc89Z+GjLAlnCZjbVUJE7wTvcDaLAGYlBa2ZQ9lhgMaVF
+dcCVBz57PrheWmBuugpm3GUwM1oEY85qEHk2kqgsODYVcGsCb1goe/I05qL1XPjSexH6HiaDPJ4D
+4MoCl/02SsCaiKLM/W+dLRlB2ZsfEk6EhMEJC8y7wpxEKRpLzkBX3RXobroBbZXnwRRhiCHi41bu
+rL2T5pM0gwD6guzJgdkPFrhW0Qf36l7B/YZ+eN4zCh0ODzxud0BF9zA0F1dLPMfpCHxQ0vZtL/vq
+zA4ZuFBklGJ+/CYEgjIaWgiKovymLMvwA5EXBJ36K7dsik20PjgZ9KOBqVtA9LtvIVnIoHVSgd2t
+EhzslODFJ0Vdk5ARMhBVA4wdWzemFWbsfdPXcO6nvemCYreiJOqBAkhokWBPmwTJ7ZJaY2BrjuMF
+TU4QNEUxK5ZHxOITxtKEKTrKvFbtREhEoiRkgLlggMHzfDjBUpAIaL9qXryFBGvIANfaMjAMw2rt
+f4KmacGHgHsXhrcUoijqtfa/gCQpNCSDwWg0C4Kg1+l0RhLddXzdaZph0Ts9RdPsL15IIpqxdp5j
+AAAAAElFTkSuQmCC
+					</attribute>
+					<attribute
+					name="state"
+					type="System.Windows.Forms.FormWindowState, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+						Maximized
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						MyAssays Explorer
+					</attribute>
+					<attribute
+					name="apphung"
+					type="System.Boolean">
+						False
+					</attribute>
+					<attribute
+					name="class"
+					type="System.String">
+						HwndWrapper[MyAssays.Desktop.Explorer.exe;;ee0e8328-114f-4ace-93de-ce59fe51dbfb]
+					</attribute>
+					<attribute
+					name="handle"
+					type="System.IntPtr">
+						591602
+					</attribute>
+					<attribute
+					name="instance"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="processid"
+					type="System.Int32">
+						10632
+					</attribute>
+					<attribute
+					name="processname"
+					type="System.String">
+						MyAssays.Desktop.Explorer
+					</attribute>
+					<attribute
+					name="windowextendedstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowExtendedStyles, Ranorex.Core.WinApi, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						RightScrollBar, Left, WindowEdge, ApplicationWindow
+					</attribute>
+					<attribute
+					name="windowstyle"
+					type="Ranorex.Core.WinApi.Win32+WindowStyles, Ranorex.Core.WinApi, Culture=neutral, PublicKeyToken=b798506b574ebc9a">
+						Overlapped, OverlappedWindow, Maximize, ClipChildren, ClipSiblings, Visible
+					</attribute>
+					<attribute
+					name="windowtext"
+					type="System.String">
+						MyAssays Explorer
+					</attribute>
+					<attribute
+					name="win32ownerwindowlevel"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="win32parentwindowlevel"
+					type="System.Int32">
+						0
+					</attribute>
+					<attribute
+					name="wpfnative"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="basetype"
+					type="System.String">
+						System.Windows.Controls.ContentControl
+					</attribute>
+					<attribute
+					name="fulltype"
+					type="System.String">
+						MyAssays.Desktop.Explorer.Views.MainWindow
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						MainWindow
+					</attribute>
+					<dynamicattribute
+					name="ActualHeight"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ActualHeight property of type Double.">
+						1056
+					</dynamicattribute>
+					<dynamicattribute
+					name="ActualWidth"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ActualWidth property of type Double.">
+						1936
+					</dynamicattribute>
+					<dynamicattribute
+					name="AllowDrop"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.AllowDrop property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="AllowsTransparency"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.AllowsTransparency property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="AutoPersist"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.AutoPersist property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="Background"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Background property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageColor"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BackStageColor property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="BackStageCornerImageVisibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BackStageCornerImageVisibility property of type Visibility."
+					readonly="False">
+						Visible
+					</dynamicattribute>
+					<dynamicattribute
+					name="BaseUri"
+					type="System.Uri, System, Culture=neutral, PublicKeyToken=b77a5c561934e089"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BaseUri property of type Uri."
+					readonly="False">
+						pack://application:,,,/MyAssays.Desktop.Explorer;component/views/mainwindow.xaml
+					</dynamicattribute>
+					<dynamicattribute
+					name="BindingGroup"
+					type="System.Windows.Data.BindingGroup, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BindingGroup property of type BindingGroup."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffect"
+					type="System.Windows.Media.Effects.BitmapEffect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BitmapEffect property of type BitmapEffect."
+					readonly="False"/>
+					<dynamicattribute
+					name="BitmapEffectInput"
+					type="System.Windows.Media.Effects.BitmapEffectInput, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BitmapEffectInput property of type BitmapEffectInput."
+					readonly="False"/>
+					<dynamicattribute
+					name="BorderBrush"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.BorderBrush property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="CacheMode"
+					type="System.Windows.Media.CacheMode, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.CacheMode property of type CacheMode."
+					readonly="False"/>
+					<dynamicattribute
+					name="Clip"
+					type="System.Windows.Media.Geometry, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Clip property of type Geometry."
+					readonly="False"/>
+					<dynamicattribute
+					name="ClipToBounds"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ClipToBounds property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="Content"
+					type="System.Object"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Content property of type Object."
+					readonly="False">
+						WpfRemote&lt;Grid&gt;{2b49f083-1cfc-4180-a907-3fcf2707f631}
+					</dynamicattribute>
+					<dynamicattribute
+					name="ContentStringFormat"
+					type="System.String"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ContentStringFormat property of type String."
+					readonly="False"/>
+					<dynamicattribute
+					name="ContextMenu"
+					type="System.Windows.Controls.ContextMenu, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ContextMenu property of type ContextMenu."
+					readonly="False"/>
+					<dynamicattribute
+					name="DataContext"
+					type="System.Object"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.DataContext property of type Object."
+					readonly="False">
+						ByRef&lt;MainWindowViewModel&gt;{54402144, MyAssays.Desktop.Explorer.ViewModels.MainWindowViewModel}
+					</dynamicattribute>
+					<dynamicattribute
+					name="Effect"
+					type="System.Windows.Media.Effects.Effect, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Effect property of type Effect."
+					readonly="False"/>
+					<dynamicattribute
+					name="FlowDirection"
+					type="System.Windows.FlowDirection, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.FlowDirection property of type FlowDirection."
+					readonly="False">
+						LeftToRight
+					</dynamicattribute>
+					<dynamicattribute
+					name="Focusable"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Focusable property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="FontSize"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.FontSize property of type Double."
+					readonly="False">
+						11.5
+					</dynamicattribute>
+					<dynamicattribute
+					name="ForceCursor"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ForceCursor property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="Foreground"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Foreground property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="HasContent"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.HasContent property of type Boolean.">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="Height"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Height property of type Double."
+					readonly="False">
+						1056
+					</dynamicattribute>
+					<dynamicattribute
+					name="HorizontalAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.HorizontalAlignment property of type HorizontalAlignment."
+					readonly="False">
+						Stretch
+					</dynamicattribute>
+					<dynamicattribute
+					name="HorizontalContentAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.HorizontalContentAlignment property of type HorizontalAlignment."
+					readonly="False">
+						Left
+					</dynamicattribute>
+					<dynamicattribute
+					name="Icon"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Icon property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="IsActive"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsActive property of type Boolean.">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsDictionaryMerged"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsDictionaryMerged property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsGlassActive"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsGlassActive property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsHitTestVisible"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsHitTestVisible property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsManipulationEnabled"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsManipulationEnabled property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsMSDictionaryMerged"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsMSDictionaryMerged property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="IsTabStop"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.IsTabStop property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="LayoutTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.LayoutTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="Left"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Left property of type Double."
+					readonly="False">
+						-8
+					</dynamicattribute>
+					<dynamicattribute
+					name="MaxHeight"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.MaxHeight property of type Double."
+					readonly="False">
+						Infinity
+					</dynamicattribute>
+					<dynamicattribute
+					name="MaxWidth"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.MaxWidth property of type Double."
+					readonly="False">
+						Infinity
+					</dynamicattribute>
+					<dynamicattribute
+					name="MinHeight"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.MinHeight property of type Double."
+					readonly="False">
+						728
+					</dynamicattribute>
+					<dynamicattribute
+					name="MinimumResizeValue"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.MinimumResizeValue property of type Double."
+					readonly="False">
+						300
+					</dynamicattribute>
+					<dynamicattribute
+					name="MinWidth"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.MinWidth property of type Double."
+					readonly="False">
+						984
+					</dynamicattribute>
+					<dynamicattribute
+					name="Office2010Icon"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Office2010Icon property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="Opacity"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Opacity property of type Double."
+					readonly="False">
+						1
+					</dynamicattribute>
+					<dynamicattribute
+					name="OpacityMask"
+					type="System.Windows.Media.Brush, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.OpacityMask property of type Brush."
+					readonly="False"/>
+					<dynamicattribute
+					name="OverridesDefaultStyle"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.OverridesDefaultStyle property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="RenderTransform"
+					type="System.Windows.Media.Transform, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.RenderTransform property of type Transform."
+					readonly="False"/>
+					<dynamicattribute
+					name="RenderTransformOrigin"
+					type="System.Windows.Point, WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.RenderTransformOrigin property of type Point."
+					readonly="False">
+						0,0
+					</dynamicattribute>
+					<dynamicattribute
+					name="ResizeMode"
+					type="System.Windows.ResizeMode, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ResizeMode property of type ResizeMode."
+					readonly="False">
+						CanResize
+					</dynamicattribute>
+					<dynamicattribute
+					name="ShowActivated"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ShowActivated property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="ShowHelpButton"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ShowHelpButton property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="ShowInTaskbar"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ShowInTaskbar property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="ShowKeyboardCues"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ShowKeyboardCues property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="SizeToContent"
+					type="System.Windows.SizeToContent, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.SizeToContent property of type SizeToContent."
+					readonly="False">
+						Manual
+					</dynamicattribute>
+					<dynamicattribute
+					name="SnapsToDevicePixels"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.SnapsToDevicePixels property of type Boolean."
+					readonly="False">
+						True
+					</dynamicattribute>
+					<dynamicattribute
+					name="TabIndex"
+					type="System.Int32"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.TabIndex property of type Int32."
+					readonly="False">
+						2147483647
+					</dynamicattribute>
+					<dynamicattribute
+					name="Tag"
+					type="System.Object"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Tag property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="TaskbarItemInfo"
+					type="System.Windows.Shell.TaskbarItemInfo, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.TaskbarItemInfo property of type TaskbarItemInfo."
+					readonly="False"/>
+					<dynamicattribute
+					name="TitleBarPatternImage"
+					type="System.Windows.Media.ImageSource, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.TitleBarPatternImage property of type ImageSource."
+					readonly="False"/>
+					<dynamicattribute
+					name="TitleTextAlignment"
+					type="System.Windows.HorizontalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.TitleTextAlignment property of type HorizontalAlignment."
+					readonly="False">
+						Center
+					</dynamicattribute>
+					<dynamicattribute
+					name="ToolTip"
+					type="System.Object"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.ToolTip property of type Object."
+					readonly="False"/>
+					<dynamicattribute
+					name="Top"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Top property of type Double."
+					readonly="False">
+						-8
+					</dynamicattribute>
+					<dynamicattribute
+					name="Topmost"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Topmost property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="Uid"
+					type="System.String"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Uid property of type String."
+					weight="150"
+					readonly="False"/>
+					<dynamicattribute
+					name="UseLayoutRounding"
+					type="System.Boolean"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.UseLayoutRounding property of type Boolean."
+					readonly="False">
+						False
+					</dynamicattribute>
+					<dynamicattribute
+					name="VerticalAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.VerticalAlignment property of type VerticalAlignment."
+					readonly="False">
+						Stretch
+					</dynamicattribute>
+					<dynamicattribute
+					name="VerticalContentAlignment"
+					type="System.Windows.VerticalAlignment, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.VerticalContentAlignment property of type VerticalAlignment."
+					readonly="False">
+						Top
+					</dynamicattribute>
+					<dynamicattribute
+					name="Visibility"
+					type="System.Windows.Visibility, PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Visibility property of type Visibility."
+					readonly="False">
+						Visible
+					</dynamicattribute>
+					<dynamicattribute
+					name="VisualStyle"
+					type="System.String"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.VisualStyle property of type String."
+					readonly="False">
+						Office2010Silver
+					</dynamicattribute>
+					<dynamicattribute
+					name="Width"
+					type="System.Double"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.Width property of type Double."
+					readonly="False">
+						1936
+					</dynamicattribute>
+					<dynamicattribute
+					name="WindowState"
+					type="System.Windows.WindowState, PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.WindowState property of type WindowState."
+					readonly="False">
+						Maximized
+					</dynamicattribute>
+					<dynamicattribute
+					name="XmlNamespaceMaps"
+					type="System.Collections.Hashtable"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.XmlNamespaceMaps property of type Hashtable."
+					readonly="False">
+						AAEAAAD/////AQAAAAAAAAAEAQAAABxTeXN0ZW0uQ29sbGVjdGlvbnMuSGFzaHRhYmxlBwAAAApM
+b2FkRmFjdG9yB1ZlcnNpb24IQ29tcGFyZXIQSGFzaENvZGVQcm92aWRlcghIYXNoU2l6ZQRLZXlz
+BlZhbHVlcwAAAwMABQULCBxTeXN0ZW0uQ29sbGVjdGlvbnMuSUNvbXBhcmVyJFN5c3RlbS5Db2xs
+ZWN0aW9ucy5JSGFzaENvZGVQcm92aWRlcgjsUTg/AAAAAAoKAwAAAAkCAAAACQMAAAAQAgAAAAAA
+AAAQAwAAAAAAAAAL
+					</dynamicattribute>
+					<dynamicaction
+					displayName="InitializeComponent"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.InitializeComponent method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+					<dynamicaction
+					displayName="OnApplyTemplate"
+					description="The WPF MyAssays.Desktop.Explorer.Views.MainWindow.OnApplyTemplate method.">
+						<returns
+						displayName="returns"
+						description="Return value."
+						type="System.Void"/>
+					</dynamicaction>
+				</element>
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="072cec1f-bb24-4246-9082-d9e1f37206af">
+				/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAH0AfQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAo
+oooAKKKKACiiigAoqBZ3WZYp4whf7rK24H26DmpFmiaQxrIhcdVDDI/CgB9FQvcx7JfKkjd41JKh
+gSMeopPtUaQK8ropKb8ZxQBPRUKXUDwCbzUCHuWHB9D70/zY9gfzE2t0bcMGgB9FNjljlXdFIrgH
+GVOah+1Ik0qzSRxqpAUscZyM0AWKKZJNFCAZZEQHoWYCh5oo/wDWSInGfmYDigB9FMM0QlERkQSH
+om4Z/KnKyuMqwYA44OeaAFooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKAKj7rqaIorqkZLFnUrzggAA896gtISFgSRrgPFk7dgCg4Ofmxzn6960qKAM6IOInhiWRo
+hEQu+MqynHC+9LaRyRxtFIjGSROJMHGMfdPpitCigDPiyv2SVopCscZRhsOUbA5x1PcZFRzLjEjR
+N5b3IZUK8428nH1BOK1KZLEspQsT8jbhj1/yaAIYMvdyzKrLGyqvzKVLEZ5wee4pPKBmuy0ed6hc
+kdRjpVqigDLjjkRonlM6BrdFyke4gjqCMEip4IAl1DhXKpAQC45HI4+uKu0UAZscJ3NFM1wGM27C
+oCp5yDux/XtV6EqUO2MxjceCuMnPX8akooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAK
+KKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoo
+ooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiii
+gAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoqt511/wA+n/kQUeddf8+n
+/kQUAWaKreddf8+n/kQUeddf8+n/AJEFAFmiq3nXX/Pp/wCRBR511/z6f+RBQBZoqt511/z6f+RB
+R511/wA+n/kQUAWaKreddf8APp/5EFHnXX/Pp/5EFAFmiq3nXX/Pp/5EFHnXX/Pp/wCRBQBZoqt5
+11/z6f8AkQUeddf8+n/kQUAWaKreddf8+n/kQUeddf8APp/5EFAFmiq3nXX/AD6f+RBR511/z6f+
+RBQBZoqt511/z6f+RBR511/z6f8AkQUAWaKreddf8+n/AJEFHnXX/Pp/5EFAFmiq3nXX/Pp/5EFH
+nXX/AD6f+RBQBZoqt511/wA+n/kQUeddf8+n/kQUAWaKreddf8+n/kQUeddf8+n/AJEFAFmiq3nX
+X/Pp/wCRBR511/z6f+RBQBZoqt511/z6f+RBR511/wA+n/kQUAWaKreddf8APp/5EFHnXX/Pp/5E
+FAFmiq3nXX/Pp/5EFHnXX/Pp/wCRBQBZoqt511/z6f8AkQUeddf8+n/kQUAWaKreddf8+n/kQUed
+df8APp/5EFAFmiq3nXX/AD6f+RBR511/z6f+RBQBZoqt511/z6f+RBR511/z6f8AkQUAWaKreddf
+8+n/AJEFHnXX/Pp/5EFAFmiq3nXX/Pp/5EFHnXX/AD6f+RBQBZoqt511/wA+n/kQUeddf8+n/kQU
+AWaKreddf8+n/kQUeddf8+n/AJEFAFmiq3nXX/Pp/wCRBR511/z6f+RBQBZoqt511/z6f+RBR511
+/wA+n/kQUAWaKreddf8APp/5EFHnXX/Pp/5EFAFmiq3nXX/Pp/5EFHnXX/Pp/wCRBQBZoqt511/z
+6f8AkQUeddf8+n/kQUAWaKreddf8+n/kQUUAWaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKS
+igBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBa
+KSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSigBaKSig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAbGzNGrSJsYjlc5x+NOpsassarI+9gOWxjP4U6g
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiig
+AooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAC
+iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKK
+KKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooo
+oAKKKKACiiigBKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigA
+ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACi
+iigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==
+			</helperscreenshot>
+			<matchname/>
+			<matchvalue/>
+		</validationitem>
+		<invokeactionrecorditem
+		enabled="True"
+		optional="False"
+		searchpropertyid="ac2f5959-16a5-4e38-84c1-b382d65a21c3"
+		action="Focus"
+		varname="">
+			<comment/>
+			<bindings/>
+			<info
+			sourcename="ItemRecorderEditor"
+			id="f900e6eb-846b-4700-9307-2bfea3f07d32">
+				<path>
+					/form[@wpfnative='True' and @title='MyAssays Explorer' and @processname='MyAssays.Desktop.Explorer']
+				</path>
+			</info>
+			<arguments
+			id="f32c31fe-06c2-4111-ab55-0b218b13bc4e"/>
+		</invokeactionrecorditem>
+	</recorditems>
+	<repository
+	name="COI_TestRepository"
+	id="06b056e5-6d17-4426-bca6-cccb2506133a"
+	rxversion="6.1"
+	relativepath="COI_TestRepository.rxrep">
+		<codegen
+		classname="COI_TestRepository"
+		namespace="COI_Test"/>
+		<rootfolder
+		name="_rootdummy_"
+		id="2d41999e-fd5d-4248-aa04-1fb7b2d9970a"/>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Run.UserCode.cs
+	</usercodefile>
+	<references/>
+</recordtable>

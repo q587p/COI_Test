@@ -1,0 +1,8 @@
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\bin\Debug\COI_Test.rxtmg
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\bin\Debug\COI_Test.rxtst
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\bin\Debug\COI_Test.exe.config
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\bin\Debug\COI_Test.exe
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\bin\Debug\COI_Test.pdb
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\obj\x86\Debug\COI_Test.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\obj\x86\Debug\COI_Test.exe
+C:\Users\User\Documents\Ranorex\RanorexStudio Projects\COI_Test\COI_Test\obj\x86\Debug\COI_Test.pdb
